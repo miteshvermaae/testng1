@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="123" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="70" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+      <class name="com.simplilearn.MyTestClass2">
+        <test-method status="FAIL" signature="beftest()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="beftest" is-config="true" duration-ms="2" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beftest -->
+        <test-method status="SKIP" signature="test2_1()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="test2_1" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_1 -->
+        <test-method status="SKIP" signature="test2_2()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="test2_2" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_2 -->
+        <test-method status="SKIP" signature="test2_3()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="test2_3" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_3 -->
+        <test-method status="SKIP" signature="test2_4()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="test2_4" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_4 -->
+        <test-method status="SKIP" signature="test2_5()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="test2_5" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.simplilearn.MyTestClass2.beftest(MyTestClass2.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_5 -->
+        <test-method status="SKIP" signature="bafttest()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="bafttest" is-config="true" duration-ms="-1634974089778" started-at="2021-10-23T07:28:09 UTC" finished-at="1970-01-01T00:00:00 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bafttest -->
+      </class> <!-- com.simplilearn.MyTestClass2 -->
+    </test> <!-- LoginTest -->
+    <test name="resetPasswordTestCases" duration-ms="7" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+      <class name="com.simplilearn.ResetPasswordTests">
+        <test-method status="PASS" signature="beftest()[pri:0, instance:com.simplilearn.ResetPasswordTests@3e57cd70]" name="beftest" is-config="true" duration-ms="1" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beftest -->
+        <test-method status="PASS" signature="testUserIsAbleToResetPasswordViaEmail()[pri:0, instance:com.simplilearn.ResetPasswordTests@3e57cd70]" name="testUserIsAbleToResetPasswordViaEmail" duration-ms="2" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserIsAbleToResetPasswordViaEmail -->
+        <test-method status="PASS" signature="testUserIsAbleToResetPasswordViaSMS()[pri:0, instance:com.simplilearn.ResetPasswordTests@3e57cd70]" name="testUserIsAbleToResetPasswordViaSMS" duration-ms="1" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserIsAbleToResetPasswordViaSMS -->
+        <test-method status="PASS" signature="bafttest()[pri:0, instance:com.simplilearn.ResetPasswordTests@3e57cd70]" name="bafttest" is-config="true" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bafttest -->
+      </class> <!-- com.simplilearn.ResetPasswordTests -->
+      <class name="com.simplilearn.MyTestClass2">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="beforeSuiteMethod" is-config="true" duration-ms="12" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.simplilearn.MyTestClass2@1877ab81]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2021-10-23T07:28:09 UTC" finished-at="2021-10-23T07:28:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.simplilearn.MyTestClass2 -->
+    </test> <!-- resetPasswordTestCases -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
