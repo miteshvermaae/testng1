@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My test Suite1]">
+  <test thread-count="5" name="My Test 1(failed)">
+    <classes>
+      <class name="com.simplilearn.AmazonLoginTests">
+        <methods>
+          <include name="userLogoutTest"/>
+          <include name="longRunningTesCase"/>
+          <include name="afterSuite"/>
+          <include name="adminDashboardTest"/>
+          <include name="childTest"/>
+          <include name="adminLoginTest"/>
+          <include name="beforeSuite"/>
+          <include name="adminLogoutTest"/>
+          <include name="parentTest"/>
+          <include name="userLoginTest"/>
+        </methods>
+      </class> <!-- com.simplilearn.AmazonLoginTests -->
+    </classes>
+  </test> <!-- My Test 1(failed) -->
+</suite> <!-- Failed suite [My test Suite1] -->

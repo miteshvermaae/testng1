@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My test Suite1" duration-ms="48" started-at="2021-10-24T07:34:31 UTC" finished-at="2021-10-24T07:34:31 UTC">
+    <groups>
+    </groups>
+    <test name="My Test 1" duration-ms="48" started-at="2021-10-24T07:34:31 UTC" finished-at="2021-10-24T07:34:31 UTC">
+      <class name="com.simplilearn2.AmazonLoginTests">
+        <test-method status="PASS" signature="parentTest()[pri:0, instance:com.simplilearn2.AmazonLoginTests@396f6598]" name="parentTest" duration-ms="1" started-at="2021-10-24T07:34:31 UTC" finished-at="2021-10-24T07:34:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentTest -->
+      </class> <!-- com.simplilearn2.AmazonLoginTests -->
+      <class name="com.simplilearn2.tests1.Tests1">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.simplilearn2.tests1.Tests1@51cdd8a]" name="Test1" duration-ms="9" started-at="2021-10-24T07:34:31 UTC" finished-at="2021-10-24T07:34:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- com.simplilearn2.tests1.Tests1 -->
+      <class name="com.simplilearn2.tests2.Tests2">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.simplilearn2.tests2.Tests2@394e1a0f]" name="Test1" duration-ms="1" started-at="2021-10-24T07:34:31 UTC" finished-at="2021-10-24T07:34:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- com.simplilearn2.tests2.Tests2 -->
+    </test> <!-- My Test 1 -->
+  </suite> <!-- My test Suite1 -->
+</testng-results>
